@@ -1,0 +1,5 @@
+.waves{
+    z-index: 1;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
