@@ -4,12 +4,12 @@
     background: linear-gradient(102.47deg, #7296EB -5.34%, #EAC0E9 106.58%, #EAC0E9 106.58%);
     overflow-x: hidden;
     left: 0;
-    height: 1809px;
+    height: 1920px;
     width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-content: center;
     justify-content: flex-start;
     align-items: center;
@@ -29,7 +29,7 @@
 }
 
 .Card1{
-    width: 305px;
+    width: 335px;
     height: 408px;
     background: rgba(255, 255, 255, 0.7);
     z-index: 5;
@@ -61,7 +61,7 @@
 
 .whiteHalf{
     background-color: white;
-    padding: 16px 24px 24px;
+    padding: 20px 24px 24px;
     border: 1px solid #DAE4F2;
     border-radius: 0px 0px 24px 24px;
     display: flex;
@@ -96,5 +96,39 @@ font-weight: 600;
 font-size: 16px;
 line-height: 150%;
 color: #7C899C;
-margin: 10px 0;
+margin: 20px 0;
+}
+
+.Card2{
+    width: 335px;
+    height: 408px;
+    background: rgba(255, 255, 255, 0.7);
+    z-index: 5;
+    border: 1px solid #DAE4F2;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 32px;
+    padding: 12px;
+    margin: 20px 0;
+}
+
+.compTextCard2{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+color: #7C899C;
+margin: 20px 0;
+}
+
+.Card3{
+    width: 335px;
+    height: 408px;
+    background: rgba(255, 255, 255, 0.7);
+    z-index: 5;
+    border: 1px solid #DAE4F2;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 32px;
+    padding: 12px;
+    margin-bottom: 10px;
 }
