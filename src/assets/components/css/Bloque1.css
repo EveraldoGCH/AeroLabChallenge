@@ -1,4 +1,95 @@
 .Bloque1{
     height: 400px;
     width: 100%;
+    background-image: url('../Waves.js');
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+
+.explore{
+    z-index: 3;
+    width: 100%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #7C899C;
+    letter-spacing: 0.24em;
+    text-align: center;
+    margin: 8px 0;
+    }
+
+.tech{
+    z-index: 3;
+    width: 100%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 80%;
+    background: -webkit-linear-gradient(102.47deg, #176FEB -5.34%, #FF80FF 106.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 0;
+}
+
+.zone{
+    z-index: 3;
+    width: 100%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 80%;
+    color: black;
+    text-align: center;
+    margin:0;
+}
+
+.hereYou{
+    z-index: 3;
+    width: 100%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #7C899C;
+    letter-spacing: 0.24em;
+    text-align: center;
+    margin: 24px 0;
+}
+
+.parentViewAllProducts{
+    text-align: center;
+    width: 303px;
+    height: 64px;
+    margin: 40px 0px;
+}
+.parentViewAllProducts{
+    width: 100%;
+    z-index: 3;
+}
+
+.viewAllProductsBtn{
+    width: 303px;
+    height: 64px;
+    background: linear-gradient(102.47deg, #176FEB -5.34%, #FF80FF 106.58%);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    display: inline-block;
+    border: none;
+    margin: 40px 0;
 }
