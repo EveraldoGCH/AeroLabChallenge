@@ -1,0 +1,115 @@
+.ProductsContainer{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleProducts{
+    background: -webkit-linear-gradient(102.47deg, #176FEB -5.34%, #FF80FF 106.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 80%;
+    margin: 40px 0;
+}
+
+.titleProductsBlack{
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.product{
+    width: 335px;
+    height: 506px;
+    filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.05));
+    margin: 20px 0px;
+}
+
+.productCard{
+    width: 335px;
+    height: 434px;
+}
+
+.pictureFrame{
+    width: 335px;
+    height: 354px;
+    border: 1px solid #DAE4F2;
+    border-radius: 16px 16px 0px 0px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pictureFrame img{
+    width: 300px;
+    height: 224px;
+    box-shadow: none !important;
+    border: none !important;
+}
+.productDetail{
+    width: 335px;
+    height: 82px;
+    padding: 16px 24px 24px;
+    border: 1px solid #DAE4F2;
+    border-top: none;
+    border-radius: 0px 0px 16px 16px;
+}
+
+.productTitle{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #252F3D;
+    margin: 0;
+}
+
+.productCategory{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #7C899C;
+}
+
+.parentRedeem{
+    text-align: center;
+    width: 303px;
+    height: 64px;
+    margin: 40px 0px;
+    width: 100%;
+    z-index: 3;
+    margin: 10px 0;
+}
+
+.redeemForBtn{
+    width: 335px;
+    height: 56px;
+    background: linear-gradient(102.47deg, #176FEB -5.34%, #FF80FF 106.58%);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    display: inline-block;
+    border: none;
+}
+
+.coinsvg{
+    margin-left: 5px;
+}

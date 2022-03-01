@@ -42,7 +42,7 @@ export default function Cards() {
                 <img src={browse} alt="browseicon" className='browserIcon'/>
               </div>
               <p className='Browse'>3-enjoy</p>
-              <p className='compTextCard2'>
+              <p className='compTextCard3'>
               All done We’ll take care of delivery of your tech item!
               </p>
             </div>

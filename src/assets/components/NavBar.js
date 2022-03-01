@@ -25,6 +25,7 @@ componentDidMount(){
 
 
   render() {
+    
     return (
       <div className='NavBarContainer'>
         <img src={aeroLablogo} alt="logoaerolab" className='NavBarLogo'/>
