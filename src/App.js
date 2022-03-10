@@ -7,8 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
-import $ from 'jquery';
-import Popper from 'popper.js';
+import githubsvg from "./github.svg"
 
 function App() {
   return (
@@ -17,6 +16,10 @@ function App() {
       <Bloque1/>
       <Cards/>
       <Products/>
+      <div className='footer'>
+        <img src={githubsvg} alt="githublogo" className='github'/>
+        <p className='footerText'>View this repository</p>
+      </div>
     </div>
   );
 }
